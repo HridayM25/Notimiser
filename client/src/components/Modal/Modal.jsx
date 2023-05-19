@@ -17,6 +17,7 @@ const Modal = () => {
     const [progressCircle, setProgressCircle] = useState("");
     const [result, setResult] = useState("");
     const [show, setShow] = useState(false);
+    const [notimised, setNotimised] = useState(false);
   
   
     const { user } = useContext(AuthContext);
@@ -127,7 +128,7 @@ const Modal = () => {
       </CircularProgressbarWithChildren>
       </div>
 
-        {!pdf?(
+        {!result?(
           <div>
             <p className="text-[#2abfff] font-bold my-10 text-center text-xl">
               {progressCircle && `Notimising....`}{" "}
