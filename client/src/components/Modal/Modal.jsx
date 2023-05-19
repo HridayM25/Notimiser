@@ -65,7 +65,7 @@ const Modal = () => {
       console.log(file);
   
   
-      const response = await fetch("http://localhost:5000/upload", {
+      const response = await fetch("https://marcdhi.mardavgandhi.repl.co/upload", {
         method: "POST",
         body: formData,
       })

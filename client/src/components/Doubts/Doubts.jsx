@@ -11,7 +11,7 @@ function Doubts() {
 
     const handleSubmit = async(event) => {
         event.preventDefault();
-        fetch(`http://localhost:5000/doubts?query=${encodeURIComponent(query)}`)
+        fetch(`https://marcdhi.mardavgandhi.repl.co/doubts?query=${encodeURIComponent(query)}`)
         .then(response => response.json())
         .then(data => setAnswer(data.answer))
     
