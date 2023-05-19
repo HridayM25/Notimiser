@@ -16,7 +16,7 @@ function About() {
         </div>
 
 
-            <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold md:py-4 py-2 text-white underline md:mx-[250px] sm:mx-auto mx-[100px]">How it works</h1>
+            {/* <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold md:py-4 py-2 text-white underline md:mx-[250px] sm:mx-auto mx-[100px]">How it works</h1> */}
 
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
               <div className='md:text-5xl sm:text-3xl text-2xl font-bold py-2 my-auto text-white mx-auto'>
