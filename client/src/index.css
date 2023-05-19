@@ -12,4 +12,22 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  
+}
 
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #158dc1; /* Color of the scrollbar handle */
+  border-radius: 5px;
+  height: 6px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar handle on hover */
+}
